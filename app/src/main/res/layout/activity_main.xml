@@ -17,9 +17,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="@string/first_name"
+        android:textColorHint="@color/hint_color"
         android:inputType="text"
         android:minHeight="48dp"
-        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"
         tools:ignore="Autofill,VisualLintTextFieldSize" />
 
     <EditText
@@ -28,10 +31,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="@string/last_name"
+        android:textColorHint="@color/hint_color"
         android:importantForAutofill="no"
         android:inputType="text"
         android:minHeight="48dp"
-        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"
         tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
@@ -40,9 +46,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="@string/age"
+        android:textColorHint="@color/hint_color"
         android:inputType="number"
         android:minHeight="48dp"
-        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"
         tools:ignore="Autofill,VisualLintTextFieldSize" />
 
     <EditText
@@ -51,9 +60,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="@string/email"
+        android:textColorHint="@color/hint_color"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"
         tools:ignore="Autofill,VisualLintTextFieldSize" />
 
 
@@ -62,6 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/error"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -77,6 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
+            android:textColor="@color/black"
             android:text="@string/active_user_0"
             android:textAlignment="center"
             android:textSize="17sp" />
@@ -91,6 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
+            android:textColor="@color/black"
             android:text="@string/deleted_user_0"
             android:textAlignment="center"
             android:textSize="17sp" />
@@ -139,6 +154,13 @@
             android:textColor="@color/white"
             tools:ignore="TextContrastCheck,VisualLintButtonSize" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/clear_icon" />
 
 
 

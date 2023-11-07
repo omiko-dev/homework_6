@@ -8,7 +8,7 @@
     <string name="remove_user">Remove User</string>
     <string name="update_user">Update User</string>
     <string name="active_user_0">Active User: 0</string>
-    <string name="deleted_user_0">deleted User: 0</string>
+    <string name="deleted_user_0">Deleted User: 0</string>
     <string name="success">Success</string>
     <string name="error">Error</string>
 </resources>
